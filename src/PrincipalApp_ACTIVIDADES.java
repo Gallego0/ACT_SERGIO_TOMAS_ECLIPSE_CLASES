@@ -7,9 +7,9 @@ public class PrincipalApp_ACTIVIDADES {
 		
 		int cantidad;
 		
-		Numero_consonantes nc = new Numero_consonantes("Hola, somos Tomas y Sergio");
-		cantidad = nc.numero_Consonantes();
+		Numero_consonantes nc = new Numero_consonantes("HolaTomasySergio");
 		
+		System.out.println(cantidad = nc.numero_Consonantes());
 		
 	}
 }
